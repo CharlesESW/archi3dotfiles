@@ -1,0 +1,798 @@
+2024-05-07T14:19:02.570Z [Modules] Modules initializing
+2024-05-07T14:19:02.571Z [Modules] Distribution: remote
+2024-05-07T14:19:02.571Z [Modules] Host updates: enabled
+2024-05-07T14:19:02.571Z [Modules] Module updates: enabled
+2024-05-07T14:19:02.572Z [Modules] Module install path: /home/charlie/.config/discord/0.0.53/modules
+2024-05-07T14:19:02.572Z [Modules] Module installed file path: /home/charlie/.config/discord/0.0.53/modules/installed.json
+2024-05-07T14:19:02.572Z [Modules] Module download path: /home/charlie/.config/discord/0.0.53/modules/pending
+2024-05-07T14:19:02.885Z [Modules] Bootstrapping...
+2024-05-07T14:19:02.886Z [Modules] Installing discord_desktop_core@0 from /opt/discord/resources/bootstrap/discord_desktop_core.zip
+2024-05-07T14:19:02.892Z [Modules] Failed installing discord_desktop_core@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_desktop_core.zip'
+2024-05-07T14:19:02.894Z [Modules] Installing discord_erlpack@0 from /opt/discord/resources/bootstrap/discord_erlpack.zip
+2024-05-07T14:19:02.910Z [Modules] Failed installing discord_erlpack@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_erlpack.zip'
+2024-05-07T14:19:02.910Z [Modules] Installing discord_spellcheck@0 from /opt/discord/resources/bootstrap/discord_spellcheck.zip
+2024-05-07T14:19:02.916Z [Modules] Failed installing discord_spellcheck@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_spellcheck.zip'
+2024-05-07T14:19:02.917Z [Modules] Installing discord_utils@0 from /opt/discord/resources/bootstrap/discord_utils.zip
+2024-05-07T14:19:02.924Z [Modules] Failed installing discord_utils@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_utils.zip'
+2024-05-07T14:19:02.925Z [Modules] Installing discord_voice@0 from /opt/discord/resources/bootstrap/discord_voice.zip
+2024-05-07T14:19:02.928Z [Modules] Failed installing discord_voice@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_voice.zip'
+2024-05-07T14:19:02.929Z [Modules] Installing discord_zstd@0 from /opt/discord/resources/bootstrap/discord_zstd.zip
+2024-05-07T14:19:02.931Z [Modules] Failed installing discord_zstd@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_zstd.zip'
+2024-05-07T14:19:02.931Z [Modules] Finished module installations. [success: 0] [failure: 6]
+2024-05-07T14:19:02.932Z [Modules] Checking for host updates.
+2024-05-07T14:19:03.232Z [Modules] Host is up to date.
+2024-05-07T14:19:03.233Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-05-07T14:19:03.275Z [Modules] Module update available: discord_desktop_core@1 [installed: 0]
+2024-05-07T14:19:03.275Z [Modules] Module update available: discord_erlpack@1 [installed: 0]
+2024-05-07T14:19:03.275Z [Modules] Module update available: discord_spellcheck@1 [installed: 0]
+2024-05-07T14:19:03.276Z [Modules] Module update available: discord_utils@1 [installed: 0]
+2024-05-07T14:19:03.276Z [Modules] Module update available: discord_voice@1 [installed: 0]
+2024-05-07T14:19:03.276Z [Modules] Module update available: discord_zstd@1 [installed: 0]
+2024-05-07T14:19:03.276Z [Modules] Fetching discord_desktop_core@1 from https://discord.com/api/modules/stable/discord_desktop_core/1
+2024-05-07T14:19:03.277Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip
+2024-05-07T14:19:03.643Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 1%
+2024-05-07T14:19:03.678Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 2%
+2024-05-07T14:19:03.698Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 3%
+2024-05-07T14:19:03.737Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 4%
+2024-05-07T14:19:03.785Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 5%
+2024-05-07T14:19:03.790Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 6%
+2024-05-07T14:19:03.809Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 7%
+2024-05-07T14:19:03.818Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 8%
+2024-05-07T14:19:03.837Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 9%
+2024-05-07T14:19:03.886Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 10%
+2024-05-07T14:19:03.891Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 11%
+2024-05-07T14:19:03.902Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 12%
+2024-05-07T14:19:03.917Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 13%
+2024-05-07T14:19:03.959Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 14%
+2024-05-07T14:19:03.964Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 15%
+2024-05-07T14:19:03.993Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 17%
+2024-05-07T14:19:04.009Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 18%
+2024-05-07T14:19:04.021Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 19%
+2024-05-07T14:19:04.071Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 20%
+2024-05-07T14:19:04.078Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 22%
+2024-05-07T14:19:04.088Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 23%
+2024-05-07T14:19:04.099Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 24%
+2024-05-07T14:19:04.115Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 25%
+2024-05-07T14:19:04.148Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 27%
+2024-05-07T14:19:04.159Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 28%
+2024-05-07T14:19:04.184Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 29%
+2024-05-07T14:19:04.226Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 30%
+2024-05-07T14:19:04.233Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 31%
+2024-05-07T14:19:04.238Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 32%
+2024-05-07T14:19:04.256Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 33%
+2024-05-07T14:19:04.268Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 34%
+2024-05-07T14:19:04.308Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 36%
+2024-05-07T14:19:04.314Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 37%
+2024-05-07T14:19:04.339Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 38%
+2024-05-07T14:19:04.350Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 39%
+2024-05-07T14:19:04.415Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 40%
+2024-05-07T14:19:04.418Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 42%
+2024-05-07T14:19:04.442Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 44%
+2024-05-07T14:19:04.448Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 45%
+2024-05-07T14:19:04.471Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 46%
+2024-05-07T14:19:04.482Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 47%
+2024-05-07T14:19:04.498Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 48%
+2024-05-07T14:19:04.535Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 50%
+2024-05-07T14:19:04.539Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 51%
+2024-05-07T14:19:04.561Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 52%
+2024-05-07T14:19:04.570Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 53%
+2024-05-07T14:19:04.580Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 54%
+2024-05-07T14:19:04.601Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 55%
+2024-05-07T14:19:04.615Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 56%
+2024-05-07T14:19:04.623Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 57%
+2024-05-07T14:19:04.663Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 58%
+2024-05-07T14:19:04.668Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 59%
+2024-05-07T14:19:04.680Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 60%
+2024-05-07T14:19:04.691Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 61%
+2024-05-07T14:19:04.698Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 62%
+2024-05-07T14:19:04.714Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 63%
+2024-05-07T14:19:04.723Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 64%
+2024-05-07T14:19:04.731Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 65%
+2024-05-07T14:19:04.774Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 66%
+2024-05-07T14:19:04.780Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 68%
+2024-05-07T14:19:04.813Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 69%
+2024-05-07T14:19:04.822Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 71%
+2024-05-07T14:19:04.834Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 72%
+2024-05-07T14:19:04.841Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 73%
+2024-05-07T14:19:04.849Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 74%
+2024-05-07T14:19:04.865Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 75%
+2024-05-07T14:19:04.869Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 76%
+2024-05-07T14:19:04.883Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 77%
+2024-05-07T14:19:04.887Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 78%
+2024-05-07T14:19:04.893Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 79%
+2024-05-07T14:19:04.904Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 80%
+2024-05-07T14:19:04.910Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 81%
+2024-05-07T14:19:04.916Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 82%
+2024-05-07T14:19:04.927Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 83%
+2024-05-07T14:19:04.933Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 84%
+2024-05-07T14:19:04.937Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 85%
+2024-05-07T14:19:04.949Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 86%
+2024-05-07T14:19:04.954Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 87%
+2024-05-07T14:19:04.958Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 88%
+2024-05-07T14:19:04.968Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 89%
+2024-05-07T14:19:04.971Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 90%
+2024-05-07T14:19:04.976Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 91%
+2024-05-07T14:19:04.986Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 92%
+2024-05-07T14:19:04.991Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 93%
+2024-05-07T14:19:04.996Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 94%
+2024-05-07T14:19:05.004Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 95%
+2024-05-07T14:19:05.009Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 96%
+2024-05-07T14:19:05.012Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 97%
+2024-05-07T14:19:05.023Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 98%
+2024-05-07T14:19:05.026Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 99%
+2024-05-07T14:19:05.030Z [Modules] Streaming discord_desktop_core@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip: 100%
+2024-05-07T14:19:05.033Z [Modules] Fetching discord_erlpack@1 from https://discord.com/api/modules/stable/discord_erlpack/1
+2024-05-07T14:19:05.033Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip
+2024-05-07T14:19:05.288Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 1%
+2024-05-07T14:19:05.292Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 2%
+2024-05-07T14:19:05.296Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 3%
+2024-05-07T14:19:05.300Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 4%
+2024-05-07T14:19:05.303Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 5%
+2024-05-07T14:19:05.312Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 6%
+2024-05-07T14:19:05.315Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 7%
+2024-05-07T14:19:05.319Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 8%
+2024-05-07T14:19:05.323Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 9%
+2024-05-07T14:19:05.325Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 10%
+2024-05-07T14:19:05.334Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 11%
+2024-05-07T14:19:05.336Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 12%
+2024-05-07T14:19:05.340Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 13%
+2024-05-07T14:19:05.344Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 14%
+2024-05-07T14:19:05.347Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 15%
+2024-05-07T14:19:05.353Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 16%
+2024-05-07T14:19:05.357Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 17%
+2024-05-07T14:19:05.361Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 18%
+2024-05-07T14:19:05.363Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 19%
+2024-05-07T14:19:05.366Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 20%
+2024-05-07T14:19:05.371Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 21%
+2024-05-07T14:19:05.377Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 22%
+2024-05-07T14:19:05.381Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 23%
+2024-05-07T14:19:05.384Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 24%
+2024-05-07T14:19:05.386Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 25%
+2024-05-07T14:19:05.389Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 26%
+2024-05-07T14:19:05.396Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 27%
+2024-05-07T14:19:05.399Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 28%
+2024-05-07T14:19:05.402Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 29%
+2024-05-07T14:19:05.406Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 30%
+2024-05-07T14:19:05.408Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 31%
+2024-05-07T14:19:05.415Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 32%
+2024-05-07T14:19:05.417Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 33%
+2024-05-07T14:19:05.420Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 34%
+2024-05-07T14:19:05.423Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 35%
+2024-05-07T14:19:05.426Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 36%
+2024-05-07T14:19:05.429Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 37%
+2024-05-07T14:19:05.435Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 38%
+2024-05-07T14:19:05.438Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 39%
+2024-05-07T14:19:05.440Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 40%
+2024-05-07T14:19:05.444Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 41%
+2024-05-07T14:19:05.447Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 42%
+2024-05-07T14:19:05.453Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 43%
+2024-05-07T14:19:05.455Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 44%
+2024-05-07T14:19:05.458Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 45%
+2024-05-07T14:19:05.460Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 46%
+2024-05-07T14:19:05.463Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 47%
+2024-05-07T14:19:05.466Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 48%
+2024-05-07T14:19:05.472Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 49%
+2024-05-07T14:19:05.475Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 50%
+2024-05-07T14:19:05.479Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 51%
+2024-05-07T14:19:05.484Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 53%
+2024-05-07T14:19:05.489Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 54%
+2024-05-07T14:19:05.491Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 55%
+2024-05-07T14:19:05.496Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 56%
+2024-05-07T14:19:05.497Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 57%
+2024-05-07T14:19:05.500Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 58%
+2024-05-07T14:19:05.502Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 59%
+2024-05-07T14:19:05.508Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 60%
+2024-05-07T14:19:05.510Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 61%
+2024-05-07T14:19:05.514Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 62%
+2024-05-07T14:19:05.516Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 63%
+2024-05-07T14:19:05.519Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 64%
+2024-05-07T14:19:05.523Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 65%
+2024-05-07T14:19:05.525Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 66%
+2024-05-07T14:19:05.528Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 67%
+2024-05-07T14:19:05.533Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 68%
+2024-05-07T14:19:05.534Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 69%
+2024-05-07T14:19:05.537Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 70%
+2024-05-07T14:19:05.542Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 71%
+2024-05-07T14:19:05.546Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 72%
+2024-05-07T14:19:05.548Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 73%
+2024-05-07T14:19:05.550Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 74%
+2024-05-07T14:19:05.552Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 75%
+2024-05-07T14:19:05.557Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 76%
+2024-05-07T14:19:05.559Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 77%
+2024-05-07T14:19:05.562Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 78%
+2024-05-07T14:19:05.564Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 79%
+2024-05-07T14:19:05.567Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 80%
+2024-05-07T14:19:05.571Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 81%
+2024-05-07T14:19:05.573Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 82%
+2024-05-07T14:19:05.577Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 83%
+2024-05-07T14:19:05.579Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 84%
+2024-05-07T14:19:05.582Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 85%
+2024-05-07T14:19:05.583Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 86%
+2024-05-07T14:19:05.588Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 87%
+2024-05-07T14:19:05.590Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 88%
+2024-05-07T14:19:05.592Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 89%
+2024-05-07T14:19:05.595Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 90%
+2024-05-07T14:19:05.597Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 91%
+2024-05-07T14:19:05.601Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 92%
+2024-05-07T14:19:05.603Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 93%
+2024-05-07T14:19:05.606Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 94%
+2024-05-07T14:19:05.610Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 95%
+2024-05-07T14:19:05.611Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 96%
+2024-05-07T14:19:05.614Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 97%
+2024-05-07T14:19:05.617Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 98%
+2024-05-07T14:19:05.619Z [Modules] Streaming discord_erlpack@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip: 100%
+2024-05-07T14:19:05.621Z [Modules] Fetching discord_spellcheck@1 from https://discord.com/api/modules/stable/discord_spellcheck/1
+2024-05-07T14:19:05.622Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip
+2024-05-07T14:19:05.816Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 1%
+2024-05-07T14:19:05.829Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 2%
+2024-05-07T14:19:05.839Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 3%
+2024-05-07T14:19:05.852Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 4%
+2024-05-07T14:19:05.864Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 5%
+2024-05-07T14:19:05.874Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 6%
+2024-05-07T14:19:05.884Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 7%
+2024-05-07T14:19:05.895Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 8%
+2024-05-07T14:19:05.904Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 9%
+2024-05-07T14:19:05.914Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 10%
+2024-05-07T14:19:05.925Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 11%
+2024-05-07T14:19:05.934Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 12%
+2024-05-07T14:19:05.943Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 13%
+2024-05-07T14:19:05.954Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 14%
+2024-05-07T14:19:05.962Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 15%
+2024-05-07T14:19:05.973Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 16%
+2024-05-07T14:19:05.982Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 17%
+2024-05-07T14:19:05.990Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 18%
+2024-05-07T14:19:06.000Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 19%
+2024-05-07T14:19:06.008Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 20%
+2024-05-07T14:19:06.017Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 21%
+2024-05-07T14:19:06.028Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 22%
+2024-05-07T14:19:06.036Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 23%
+2024-05-07T14:19:06.045Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 24%
+2024-05-07T14:19:06.053Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 25%
+2024-05-07T14:19:06.063Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 26%
+2024-05-07T14:19:06.073Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 27%
+2024-05-07T14:19:06.081Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 28%
+2024-05-07T14:19:06.091Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 29%
+2024-05-07T14:19:06.099Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 30%
+2024-05-07T14:19:06.107Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 31%
+2024-05-07T14:19:06.116Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 32%
+2024-05-07T14:19:06.125Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 33%
+2024-05-07T14:19:06.134Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 34%
+2024-05-07T14:19:06.142Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 35%
+2024-05-07T14:19:06.152Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 36%
+2024-05-07T14:19:06.162Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 37%
+2024-05-07T14:19:06.170Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 38%
+2024-05-07T14:19:06.178Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 39%
+2024-05-07T14:19:06.187Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 40%
+2024-05-07T14:19:06.195Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 41%
+2024-05-07T14:19:06.203Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 42%
+2024-05-07T14:19:06.214Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 43%
+2024-05-07T14:19:06.226Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 44%
+2024-05-07T14:19:06.236Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 45%
+2024-05-07T14:19:06.245Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 46%
+2024-05-07T14:19:06.278Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 47%
+2024-05-07T14:19:06.283Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 48%
+2024-05-07T14:19:06.285Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 49%
+2024-05-07T14:19:06.299Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 50%
+2024-05-07T14:19:06.322Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 51%
+2024-05-07T14:19:06.333Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 52%
+2024-05-07T14:19:06.363Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 53%
+2024-05-07T14:19:06.366Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 54%
+2024-05-07T14:19:06.367Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 55%
+2024-05-07T14:19:06.377Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 56%
+2024-05-07T14:19:06.386Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 57%
+2024-05-07T14:19:06.413Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 58%
+2024-05-07T14:19:06.424Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 59%
+2024-05-07T14:19:06.429Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 60%
+2024-05-07T14:19:06.430Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 61%
+2024-05-07T14:19:06.456Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 62%
+2024-05-07T14:19:06.459Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 63%
+2024-05-07T14:19:06.470Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 64%
+2024-05-07T14:19:06.472Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 65%
+2024-05-07T14:19:06.479Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 66%
+2024-05-07T14:19:06.506Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 67%
+2024-05-07T14:19:06.507Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 68%
+2024-05-07T14:19:06.530Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 69%
+2024-05-07T14:19:06.536Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 70%
+2024-05-07T14:19:06.537Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 71%
+2024-05-07T14:19:06.561Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 72%
+2024-05-07T14:19:06.568Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 73%
+2024-05-07T14:19:06.570Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 74%
+2024-05-07T14:19:06.575Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 75%
+2024-05-07T14:19:06.586Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 76%
+2024-05-07T14:19:06.597Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 77%
+2024-05-07T14:19:06.631Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 78%
+2024-05-07T14:19:06.632Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 79%
+2024-05-07T14:19:06.647Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 80%
+2024-05-07T14:19:06.653Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 81%
+2024-05-07T14:19:06.655Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 82%
+2024-05-07T14:19:06.679Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 83%
+2024-05-07T14:19:06.691Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 84%
+2024-05-07T14:19:06.699Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 85%
+2024-05-07T14:19:06.704Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 87%
+2024-05-07T14:19:06.711Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 88%
+2024-05-07T14:19:06.739Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 89%
+2024-05-07T14:19:06.744Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 90%
+2024-05-07T14:19:06.753Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 91%
+2024-05-07T14:19:06.754Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 92%
+2024-05-07T14:19:06.760Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 93%
+2024-05-07T14:19:06.770Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 94%
+2024-05-07T14:19:06.782Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 95%
+2024-05-07T14:19:06.790Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 96%
+2024-05-07T14:19:06.799Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 97%
+2024-05-07T14:19:06.826Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 98%
+2024-05-07T14:19:06.827Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 99%
+2024-05-07T14:19:06.834Z [Modules] Streaming discord_spellcheck@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip: 100%
+2024-05-07T14:19:06.836Z [Modules] Fetching discord_utils@1 from https://discord.com/api/modules/stable/discord_utils/1
+2024-05-07T14:19:06.837Z [Modules] Streaming discord_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_utils-1.zip
+2024-05-07T14:19:07.037Z [Modules] Streaming discord_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_utils-1.zip: 1%
+2024-05-07T14:19:07.040Z [Modules] Streaming discord_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_utils-1.zip: 2%
+2024-05-07T14:19:07.043Z [Modules] Streaming discord_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_utils-1.zip: 3%
+2024-05-07T14:19:07.046Z [Modules] Streaming discord_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_utils-1.zip: 4%
+2024-05-07T14:19:07.050Z [Modules] Streaming discord_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_utils-1.zip: 5%
+2024-05-07T14:19:07.054Z [Modules] Streaming discord_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_utils-1.zip: 6%
+2024-05-07T14:19:07.057Z [Modules] Streaming discord_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_utils-1.zip: 7%
+2024-05-07T14:19:07.062Z [Modules] Streaming discord_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_utils-1.zip: 8%
+2024-05-07T14:19:07.066Z [Modules] Streaming discord_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_utils-1.zip: 9%
+2024-05-07T14:19:07.068Z [Modules] Streaming discord_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_utils-1.zip: 10%
+2024-05-07T14:19:07.090Z [Modules] Streaming discord_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_utils-1.zip: 11%
+2024-05-07T14:19:07.091Z [Modules] Streaming discord_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_utils-1.zip: 12%
+2024-05-07T14:19:07.093Z [Modules] Streaming discord_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_utils-1.zip: 13%
+2024-05-07T14:19:07.097Z [Modules] Streaming discord_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_utils-1.zip: 15%
+2024-05-07T14:19:07.103Z [Modules] Streaming discord_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_utils-1.zip: 17%
+2024-05-07T14:19:07.112Z [Modules] Streaming discord_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_utils-1.zip: 19%
+2024-05-07T14:19:07.113Z [Modules] Streaming discord_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_utils-1.zip: 24%
+2024-05-07T14:19:07.117Z [Modules] Streaming discord_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_utils-1.zip: 25%
+2024-05-07T14:19:07.140Z [Modules] Streaming discord_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_utils-1.zip: 26%
+2024-05-07T14:19:07.142Z [Modules] Streaming discord_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_utils-1.zip: 28%
+2024-05-07T14:19:07.145Z [Modules] Streaming discord_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_utils-1.zip: 30%
+2024-05-07T14:19:07.146Z [Modules] Streaming discord_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_utils-1.zip: 32%
+2024-05-07T14:19:07.150Z [Modules] Streaming discord_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_utils-1.zip: 33%
+2024-05-07T14:19:07.153Z [Modules] Streaming discord_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_utils-1.zip: 35%
+2024-05-07T14:19:07.156Z [Modules] Streaming discord_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_utils-1.zip: 38%
+2024-05-07T14:19:07.158Z [Modules] Streaming discord_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_utils-1.zip: 39%
+2024-05-07T14:19:07.161Z [Modules] Streaming discord_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_utils-1.zip: 40%
+2024-05-07T14:19:07.163Z [Modules] Streaming discord_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_utils-1.zip: 41%
+2024-05-07T14:19:07.166Z [Modules] Streaming discord_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_utils-1.zip: 42%
+2024-05-07T14:19:07.168Z [Modules] Streaming discord_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_utils-1.zip: 43%
+2024-05-07T14:19:07.172Z [Modules] Streaming discord_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_utils-1.zip: 44%
+2024-05-07T14:19:07.198Z [Modules] Streaming discord_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_utils-1.zip: 45%
+2024-05-07T14:19:07.202Z [Modules] Streaming discord_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_utils-1.zip: 46%
+2024-05-07T14:19:07.208Z [Modules] Streaming discord_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_utils-1.zip: 48%
+2024-05-07T14:19:07.210Z [Modules] Streaming discord_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_utils-1.zip: 50%
+2024-05-07T14:19:07.213Z [Modules] Streaming discord_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_utils-1.zip: 52%
+2024-05-07T14:19:07.217Z [Modules] Streaming discord_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_utils-1.zip: 54%
+2024-05-07T14:19:07.218Z [Modules] Streaming discord_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_utils-1.zip: 55%
+2024-05-07T14:19:07.219Z [Modules] Streaming discord_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_utils-1.zip: 56%
+2024-05-07T14:19:07.223Z [Modules] Streaming discord_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_utils-1.zip: 57%
+2024-05-07T14:19:07.225Z [Modules] Streaming discord_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_utils-1.zip: 58%
+2024-05-07T14:19:07.228Z [Modules] Streaming discord_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_utils-1.zip: 59%
+2024-05-07T14:19:07.231Z [Modules] Streaming discord_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_utils-1.zip: 60%
+2024-05-07T14:19:07.233Z [Modules] Streaming discord_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_utils-1.zip: 61%
+2024-05-07T14:19:07.260Z [Modules] Streaming discord_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_utils-1.zip: 63%
+2024-05-07T14:19:07.263Z [Modules] Streaming discord_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_utils-1.zip: 65%
+2024-05-07T14:19:07.265Z [Modules] Streaming discord_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_utils-1.zip: 66%
+2024-05-07T14:19:07.266Z [Modules] Streaming discord_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_utils-1.zip: 67%
+2024-05-07T14:19:07.271Z [Modules] Streaming discord_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_utils-1.zip: 68%
+2024-05-07T14:19:07.272Z [Modules] Streaming discord_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_utils-1.zip: 69%
+2024-05-07T14:19:07.278Z [Modules] Streaming discord_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_utils-1.zip: 70%
+2024-05-07T14:19:07.280Z [Modules] Streaming discord_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_utils-1.zip: 71%
+2024-05-07T14:19:07.282Z [Modules] Streaming discord_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_utils-1.zip: 73%
+2024-05-07T14:19:07.283Z [Modules] Streaming discord_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_utils-1.zip: 76%
+2024-05-07T14:19:07.302Z [Modules] Streaming discord_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_utils-1.zip: 77%
+2024-05-07T14:19:07.311Z [Modules] Streaming discord_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_utils-1.zip: 79%
+2024-05-07T14:19:07.312Z [Modules] Streaming discord_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_utils-1.zip: 81%
+2024-05-07T14:19:07.316Z [Modules] Streaming discord_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_utils-1.zip: 83%
+2024-05-07T14:19:07.323Z [Modules] Streaming discord_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_utils-1.zip: 85%
+2024-05-07T14:19:07.326Z [Modules] Streaming discord_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_utils-1.zip: 86%
+2024-05-07T14:19:07.332Z [Modules] Streaming discord_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_utils-1.zip: 92%
+2024-05-07T14:19:07.335Z [Modules] Streaming discord_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_utils-1.zip: 93%
+2024-05-07T14:19:07.338Z [Modules] Streaming discord_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_utils-1.zip: 94%
+2024-05-07T14:19:07.353Z [Modules] Streaming discord_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_utils-1.zip: 95%
+2024-05-07T14:19:07.355Z [Modules] Streaming discord_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_utils-1.zip: 97%
+2024-05-07T14:19:07.359Z [Modules] Streaming discord_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_utils-1.zip: 98%
+2024-05-07T14:19:07.362Z [Modules] Streaming discord_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_utils-1.zip: 100%
+2024-05-07T14:19:07.365Z [Modules] Fetching discord_voice@1 from https://discord.com/api/modules/stable/discord_voice/1
+2024-05-07T14:19:07.365Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip
+2024-05-07T14:19:07.564Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 1%
+2024-05-07T14:19:07.608Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 2%
+2024-05-07T14:19:07.620Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 3%
+2024-05-07T14:19:07.687Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 4%
+2024-05-07T14:19:07.688Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 5%
+2024-05-07T14:19:07.691Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 6%
+2024-05-07T14:19:07.728Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 7%
+2024-05-07T14:19:07.752Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 8%
+2024-05-07T14:19:07.770Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 9%
+2024-05-07T14:19:07.781Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 10%
+2024-05-07T14:19:07.821Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 11%
+2024-05-07T14:19:07.831Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 12%
+2024-05-07T14:19:07.870Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 13%
+2024-05-07T14:19:07.882Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 14%
+2024-05-07T14:19:07.898Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 15%
+2024-05-07T14:19:07.934Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 16%
+2024-05-07T14:19:07.949Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 17%
+2024-05-07T14:19:07.979Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 18%
+2024-05-07T14:19:08.002Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 19%
+2024-05-07T14:19:08.024Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 20%
+2024-05-07T14:19:08.047Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 21%
+2024-05-07T14:19:08.071Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 22%
+2024-05-07T14:19:08.096Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 23%
+2024-05-07T14:19:08.114Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 24%
+2024-05-07T14:19:08.138Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 25%
+2024-05-07T14:19:08.181Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 26%
+2024-05-07T14:19:08.205Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 27%
+2024-05-07T14:19:08.231Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 28%
+2024-05-07T14:19:08.275Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 29%
+2024-05-07T14:19:08.279Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 30%
+2024-05-07T14:19:08.301Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 31%
+2024-05-07T14:19:08.322Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 32%
+2024-05-07T14:19:08.346Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 33%
+2024-05-07T14:19:08.368Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 34%
+2024-05-07T14:19:08.389Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 35%
+2024-05-07T14:19:08.411Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 36%
+2024-05-07T14:19:08.432Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 37%
+2024-05-07T14:19:08.454Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 38%
+2024-05-07T14:19:08.477Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 39%
+2024-05-07T14:19:08.500Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 40%
+2024-05-07T14:19:08.529Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 41%
+2024-05-07T14:19:08.543Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 42%
+2024-05-07T14:19:08.566Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 43%
+2024-05-07T14:19:08.587Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 44%
+2024-05-07T14:19:08.616Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 45%
+2024-05-07T14:19:08.635Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 46%
+2024-05-07T14:19:08.656Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 47%
+2024-05-07T14:19:08.696Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 48%
+2024-05-07T14:19:08.710Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 49%
+2024-05-07T14:19:08.735Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 50%
+2024-05-07T14:19:08.768Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 51%
+2024-05-07T14:19:08.791Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 52%
+2024-05-07T14:19:08.805Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 53%
+2024-05-07T14:19:08.831Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 54%
+2024-05-07T14:19:08.858Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 55%
+2024-05-07T14:19:08.883Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 56%
+2024-05-07T14:19:08.907Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 57%
+2024-05-07T14:19:08.933Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 58%
+2024-05-07T14:19:08.958Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 59%
+2024-05-07T14:19:08.996Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 60%
+2024-05-07T14:19:09.007Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 61%
+2024-05-07T14:19:09.032Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 62%
+2024-05-07T14:19:09.055Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 63%
+2024-05-07T14:19:09.096Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 64%
+2024-05-07T14:19:09.107Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 65%
+2024-05-07T14:19:09.131Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 66%
+2024-05-07T14:19:09.200Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 67%
+2024-05-07T14:19:09.225Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 68%
+2024-05-07T14:19:09.251Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 69%
+2024-05-07T14:19:09.297Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 70%
+2024-05-07T14:19:09.310Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 71%
+2024-05-07T14:19:09.325Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 72%
+2024-05-07T14:19:09.349Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 73%
+2024-05-07T14:19:09.372Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 74%
+2024-05-07T14:19:09.407Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 75%
+2024-05-07T14:19:09.419Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 76%
+2024-05-07T14:19:09.449Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 77%
+2024-05-07T14:19:09.476Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 78%
+2024-05-07T14:19:09.495Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 79%
+2024-05-07T14:19:09.519Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 80%
+2024-05-07T14:19:09.549Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 81%
+2024-05-07T14:19:09.567Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 82%
+2024-05-07T14:19:09.591Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 83%
+2024-05-07T14:19:09.618Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 84%
+2024-05-07T14:19:09.640Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 85%
+2024-05-07T14:19:09.664Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 86%
+2024-05-07T14:19:09.687Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 87%
+2024-05-07T14:19:09.711Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 88%
+2024-05-07T14:19:09.752Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 89%
+2024-05-07T14:19:09.760Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 90%
+2024-05-07T14:19:09.793Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 91%
+2024-05-07T14:19:09.826Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 92%
+2024-05-07T14:19:09.831Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 93%
+2024-05-07T14:19:09.854Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 94%
+2024-05-07T14:19:09.896Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 95%
+2024-05-07T14:19:09.904Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 96%
+2024-05-07T14:19:09.941Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 97%
+2024-05-07T14:19:09.956Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 98%
+2024-05-07T14:19:09.973Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 99%
+2024-05-07T14:19:09.996Z [Modules] Streaming discord_voice@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip: 100%
+2024-05-07T14:19:09.998Z [Modules] Fetching discord_zstd@1 from https://discord.com/api/modules/stable/discord_zstd/1
+2024-05-07T14:19:09.998Z [Modules] Streaming discord_zstd@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_zstd-1.zip
+2024-05-07T14:19:10.179Z [Modules] Streaming discord_zstd@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_zstd-1.zip: 1%
+2024-05-07T14:19:10.180Z [Modules] Streaming discord_zstd@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_zstd-1.zip: 2%
+2024-05-07T14:19:10.183Z [Modules] Streaming discord_zstd@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_zstd-1.zip: 3%
+2024-05-07T14:19:10.184Z [Modules] Streaming discord_zstd@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_zstd-1.zip: 5%
+2024-05-07T14:19:10.186Z [Modules] Streaming discord_zstd@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_zstd-1.zip: 6%
+2024-05-07T14:19:10.188Z [Modules] Streaming discord_zstd@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_zstd-1.zip: 7%
+2024-05-07T14:19:10.190Z [Modules] Streaming discord_zstd@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_zstd-1.zip: 8%
+2024-05-07T14:19:10.193Z [Modules] Streaming discord_zstd@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_zstd-1.zip: 10%
+2024-05-07T14:19:10.196Z [Modules] Streaming discord_zstd@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_zstd-1.zip: 11%
+2024-05-07T14:19:10.199Z [Modules] Streaming discord_zstd@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_zstd-1.zip: 12%
+2024-05-07T14:19:10.200Z [Modules] Streaming discord_zstd@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_zstd-1.zip: 13%
+2024-05-07T14:19:10.201Z [Modules] Streaming discord_zstd@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_zstd-1.zip: 15%
+2024-05-07T14:19:10.203Z [Modules] Streaming discord_zstd@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_zstd-1.zip: 16%
+2024-05-07T14:19:10.205Z [Modules] Streaming discord_zstd@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_zstd-1.zip: 17%
+2024-05-07T14:19:10.207Z [Modules] Streaming discord_zstd@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_zstd-1.zip: 19%
+2024-05-07T14:19:10.209Z [Modules] Streaming discord_zstd@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_zstd-1.zip: 20%
+2024-05-07T14:19:10.211Z [Modules] Streaming discord_zstd@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_zstd-1.zip: 21%
+2024-05-07T14:19:10.213Z [Modules] Streaming discord_zstd@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_zstd-1.zip: 22%
+2024-05-07T14:19:10.215Z [Modules] Streaming discord_zstd@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_zstd-1.zip: 24%
+2024-05-07T14:19:10.217Z [Modules] Streaming discord_zstd@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_zstd-1.zip: 25%
+2024-05-07T14:19:10.218Z [Modules] Streaming discord_zstd@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_zstd-1.zip: 26%
+2024-05-07T14:19:10.220Z [Modules] Streaming discord_zstd@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_zstd-1.zip: 27%
+2024-05-07T14:19:10.222Z [Modules] Streaming discord_zstd@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_zstd-1.zip: 29%
+2024-05-07T14:19:10.224Z [Modules] Streaming discord_zstd@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_zstd-1.zip: 30%
+2024-05-07T14:19:10.225Z [Modules] Streaming discord_zstd@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_zstd-1.zip: 31%
+2024-05-07T14:19:10.226Z [Modules] Streaming discord_zstd@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_zstd-1.zip: 32%
+2024-05-07T14:19:10.230Z [Modules] Streaming discord_zstd@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_zstd-1.zip: 36%
+2024-05-07T14:19:10.232Z [Modules] Streaming discord_zstd@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_zstd-1.zip: 38%
+2024-05-07T14:19:10.233Z [Modules] Streaming discord_zstd@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_zstd-1.zip: 39%
+2024-05-07T14:19:10.234Z [Modules] Streaming discord_zstd@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_zstd-1.zip: 40%
+2024-05-07T14:19:10.236Z [Modules] Streaming discord_zstd@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_zstd-1.zip: 41%
+2024-05-07T14:19:10.237Z [Modules] Streaming discord_zstd@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_zstd-1.zip: 43%
+2024-05-07T14:19:10.239Z [Modules] Streaming discord_zstd@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_zstd-1.zip: 44%
+2024-05-07T14:19:10.240Z [Modules] Streaming discord_zstd@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_zstd-1.zip: 45%
+2024-05-07T14:19:10.241Z [Modules] Streaming discord_zstd@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_zstd-1.zip: 46%
+2024-05-07T14:19:10.243Z [Modules] Streaming discord_zstd@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_zstd-1.zip: 48%
+2024-05-07T14:19:10.247Z [Modules] Streaming discord_zstd@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_zstd-1.zip: 52%
+2024-05-07T14:19:10.249Z [Modules] Streaming discord_zstd@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_zstd-1.zip: 53%
+2024-05-07T14:19:10.250Z [Modules] Streaming discord_zstd@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_zstd-1.zip: 54%
+2024-05-07T14:19:10.254Z [Modules] Streaming discord_zstd@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_zstd-1.zip: 58%
+2024-05-07T14:19:10.256Z [Modules] Streaming discord_zstd@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_zstd-1.zip: 60%
+2024-05-07T14:19:10.259Z [Modules] Streaming discord_zstd@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_zstd-1.zip: 62%
+2024-05-07T14:19:10.273Z [Modules] Streaming discord_zstd@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_zstd-1.zip: 67%
+2024-05-07T14:19:10.279Z [Modules] Streaming discord_zstd@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_zstd-1.zip: 76%
+2024-05-07T14:19:10.281Z [Modules] Streaming discord_zstd@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_zstd-1.zip: 81%
+2024-05-07T14:19:10.283Z [Modules] Streaming discord_zstd@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_zstd-1.zip: 85%
+2024-05-07T14:19:10.285Z [Modules] Streaming discord_zstd@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_zstd-1.zip: 86%
+2024-05-07T14:19:10.286Z [Modules] Streaming discord_zstd@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_zstd-1.zip: 87%
+2024-05-07T14:19:10.287Z [Modules] Streaming discord_zstd@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_zstd-1.zip: 88%
+2024-05-07T14:19:10.289Z [Modules] Streaming discord_zstd@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_zstd-1.zip: 90%
+2024-05-07T14:19:10.290Z [Modules] Streaming discord_zstd@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_zstd-1.zip: 91%
+2024-05-07T14:19:10.292Z [Modules] Streaming discord_zstd@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_zstd-1.zip: 92%
+2024-05-07T14:19:10.293Z [Modules] Streaming discord_zstd@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_zstd-1.zip: 94%
+2024-05-07T14:19:10.296Z [Modules] Streaming discord_zstd@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_zstd-1.zip: 96%
+2024-05-07T14:19:10.298Z [Modules] Streaming discord_zstd@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_zstd-1.zip: 97%
+2024-05-07T14:19:10.299Z [Modules] Streaming discord_zstd@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_zstd-1.zip: 100%
+2024-05-07T14:19:10.301Z [Modules] Finished module downloads. [success: 6] [failure: 0]
+2024-05-07T14:19:10.302Z [Modules] Installing updates...
+2024-05-07T14:19:10.302Z [Modules] Installing discord_desktop_core@1 from /home/charlie/.config/discord/0.0.53/modules/pending/discord_desktop_core-1.zip
+2024-05-07T14:19:10.441Z [Modules] Installing discord_erlpack@1 from /home/charlie/.config/discord/0.0.53/modules/pending/discord_erlpack-1.zip
+2024-05-07T14:19:10.540Z [Modules] Installing discord_spellcheck@1 from /home/charlie/.config/discord/0.0.53/modules/pending/discord_spellcheck-1.zip
+2024-05-07T14:19:12.170Z [Modules] Installing discord_utils@1 from /home/charlie/.config/discord/0.0.53/modules/pending/discord_utils-1.zip
+2024-05-07T14:19:12.421Z [Modules] Installing discord_voice@1 from /home/charlie/.config/discord/0.0.53/modules/pending/discord_voice-1.zip
+2024-05-07T14:19:13.338Z [Modules] Installing discord_zstd@1 from /home/charlie/.config/discord/0.0.53/modules/pending/discord_zstd-1.zip
+2024-05-07T14:19:13.397Z [Modules] Finished module installations. [success: 6] [failure: 0]
+2024-05-07T14:19:13.398Z [Modules] Checking for host updates.
+2024-05-07T14:19:13.566Z [Modules] Host is up to date.
+2024-05-07T14:19:13.566Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-05-07T14:19:13.570Z [Modules] No module updates available.
+2024-05-07T14:19:15.629Z [Modules] Starting to install discord_krisp...
+2024-05-07T14:19:15.630Z [Modules] Fetching discord_krisp@1 from https://discord.com/api/modules/stable/discord_krisp/1
+2024-05-07T14:19:15.630Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip
+2024-05-07T14:19:15.642Z [Modules] Starting to install discord_game_utils...
+2024-05-07T14:19:15.907Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 1%
+2024-05-07T14:19:15.927Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 2%
+2024-05-07T14:19:15.949Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 3%
+2024-05-07T14:19:15.969Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 4%
+2024-05-07T14:19:15.987Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 5%
+2024-05-07T14:19:16.008Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 6%
+2024-05-07T14:19:16.026Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 7%
+2024-05-07T14:19:16.046Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 8%
+2024-05-07T14:19:16.066Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 9%
+2024-05-07T14:19:16.084Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 10%
+2024-05-07T14:19:16.104Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 11%
+2024-05-07T14:19:16.123Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 12%
+2024-05-07T14:19:16.142Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 13%
+2024-05-07T14:19:16.165Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 14%
+2024-05-07T14:19:16.182Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 15%
+2024-05-07T14:19:16.200Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 16%
+2024-05-07T14:19:16.220Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 17%
+2024-05-07T14:19:16.241Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 18%
+2024-05-07T14:19:16.262Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 19%
+2024-05-07T14:19:16.292Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 20%
+2024-05-07T14:19:16.298Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 21%
+2024-05-07T14:19:16.318Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 22%
+2024-05-07T14:19:16.337Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 23%
+2024-05-07T14:19:16.356Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 24%
+2024-05-07T14:19:16.376Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 25%
+2024-05-07T14:19:16.396Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 26%
+2024-05-07T14:19:16.415Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 27%
+2024-05-07T14:19:16.435Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 28%
+2024-05-07T14:19:16.454Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 29%
+2024-05-07T14:19:16.513Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 30%
+2024-05-07T14:19:16.514Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 31%
+2024-05-07T14:19:16.552Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 32%
+2024-05-07T14:19:16.556Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 33%
+2024-05-07T14:19:16.584Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 34%
+2024-05-07T14:19:16.616Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 35%
+2024-05-07T14:19:16.623Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 36%
+2024-05-07T14:19:16.650Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 37%
+2024-05-07T14:19:16.667Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 38%
+2024-05-07T14:19:16.668Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 39%
+2024-05-07T14:19:16.715Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 40%
+2024-05-07T14:19:16.719Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 41%
+2024-05-07T14:19:16.749Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 42%
+2024-05-07T14:19:16.785Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 43%
+2024-05-07T14:19:16.789Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 44%
+2024-05-07T14:19:16.799Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 45%
+2024-05-07T14:19:16.817Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 46%
+2024-05-07T14:19:16.857Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 47%
+2024-05-07T14:19:16.868Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 48%
+2024-05-07T14:19:16.881Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 49%
+2024-05-07T14:19:16.912Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 50%
+2024-05-07T14:19:16.922Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 51%
+2024-05-07T14:19:16.946Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 52%
+2024-05-07T14:19:16.981Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 53%
+2024-05-07T14:19:16.992Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 54%
+2024-05-07T14:19:17.004Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 55%
+2024-05-07T14:19:17.061Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 56%
+2024-05-07T14:19:17.073Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 57%
+2024-05-07T14:19:17.109Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 58%
+2024-05-07T14:19:17.127Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 59%
+2024-05-07T14:19:17.185Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 60%
+2024-05-07T14:19:17.194Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 61%
+2024-05-07T14:19:17.207Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 62%
+2024-05-07T14:19:17.251Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 63%
+2024-05-07T14:19:17.261Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 64%
+2024-05-07T14:19:17.283Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 65%
+2024-05-07T14:19:17.284Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 66%
+2024-05-07T14:19:17.318Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 67%
+2024-05-07T14:19:17.334Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 68%
+2024-05-07T14:19:17.375Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 69%
+2024-05-07T14:19:17.381Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 70%
+2024-05-07T14:19:17.406Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 71%
+2024-05-07T14:19:17.450Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 72%
+2024-05-07T14:19:17.456Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 73%
+2024-05-07T14:19:17.480Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 74%
+2024-05-07T14:19:17.505Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 75%
+2024-05-07T14:19:17.524Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 76%
+2024-05-07T14:19:17.555Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 77%
+2024-05-07T14:19:17.568Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 78%
+2024-05-07T14:19:17.590Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 79%
+2024-05-07T14:19:17.630Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 80%
+2024-05-07T14:19:17.642Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 81%
+2024-05-07T14:19:17.656Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 82%
+2024-05-07T14:19:17.680Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 83%
+2024-05-07T14:19:17.721Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 84%
+2024-05-07T14:19:17.730Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 85%
+2024-05-07T14:19:17.748Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 86%
+2024-05-07T14:19:17.772Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 87%
+2024-05-07T14:19:17.803Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 88%
+2024-05-07T14:19:17.833Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 89%
+2024-05-07T14:19:17.848Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 90%
+2024-05-07T14:19:17.866Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 91%
+2024-05-07T14:19:17.885Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 92%
+2024-05-07T14:19:17.912Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 93%
+2024-05-07T14:19:17.937Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 94%
+2024-05-07T14:19:17.973Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 95%
+2024-05-07T14:19:17.991Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 96%
+2024-05-07T14:19:18.007Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 97%
+2024-05-07T14:19:18.034Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 98%
+2024-05-07T14:19:18.059Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 99%
+2024-05-07T14:19:18.080Z [Modules] Streaming discord_krisp@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip: 100%
+2024-05-07T14:19:18.082Z [Modules] Fetching discord_game_utils@1 from https://discord.com/api/modules/stable/discord_game_utils/1
+2024-05-07T14:19:18.082Z [Modules] Streaming discord_game_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_game_utils-1.zip
+2024-05-07T14:19:18.082Z [Modules] Installing discord_krisp@1 from /home/charlie/.config/discord/0.0.53/modules/pending/discord_krisp-1.zip
+2024-05-07T14:19:18.304Z [Modules] Streaming discord_game_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_game_utils-1.zip: 1%
+2024-05-07T14:19:18.308Z [Modules] Streaming discord_game_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_game_utils-1.zip: 2%
+2024-05-07T14:19:18.311Z [Modules] Streaming discord_game_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_game_utils-1.zip: 3%
+2024-05-07T14:19:18.314Z [Modules] Streaming discord_game_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_game_utils-1.zip: 4%
+2024-05-07T14:19:18.315Z [Modules] Streaming discord_game_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_game_utils-1.zip: 5%
+2024-05-07T14:19:18.320Z [Modules] Streaming discord_game_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_game_utils-1.zip: 6%
+2024-05-07T14:19:18.323Z [Modules] Streaming discord_game_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_game_utils-1.zip: 7%
+2024-05-07T14:19:18.326Z [Modules] Streaming discord_game_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_game_utils-1.zip: 8%
+2024-05-07T14:19:18.332Z [Modules] Streaming discord_game_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_game_utils-1.zip: 10%
+2024-05-07T14:19:18.356Z [Modules] Streaming discord_game_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_game_utils-1.zip: 11%
+2024-05-07T14:19:18.358Z [Modules] Streaming discord_game_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_game_utils-1.zip: 12%
+2024-05-07T14:19:18.363Z [Modules] Streaming discord_game_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_game_utils-1.zip: 13%
+2024-05-07T14:19:18.366Z [Modules] Streaming discord_game_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_game_utils-1.zip: 16%
+2024-05-07T14:19:18.367Z [Modules] Streaming discord_game_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_game_utils-1.zip: 17%
+2024-05-07T14:19:18.370Z [Modules] Streaming discord_game_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_game_utils-1.zip: 19%
+2024-05-07T14:19:18.374Z [Modules] Streaming discord_game_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_game_utils-1.zip: 22%
+2024-05-07T14:19:18.374Z [Modules] Streaming discord_game_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_game_utils-1.zip: 24%
+2024-05-07T14:19:18.376Z [Modules] Streaming discord_game_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_game_utils-1.zip: 25%
+2024-05-07T14:19:18.379Z [Modules] Streaming discord_game_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_game_utils-1.zip: 26%
+2024-05-07T14:19:18.402Z [Modules] Streaming discord_game_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_game_utils-1.zip: 29%
+2024-05-07T14:19:18.407Z [Modules] Streaming discord_game_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_game_utils-1.zip: 32%
+2024-05-07T14:19:18.412Z [Modules] Streaming discord_game_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_game_utils-1.zip: 33%
+2024-05-07T14:19:18.416Z [Modules] Streaming discord_game_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_game_utils-1.zip: 34%
+2024-05-07T14:19:18.419Z [Modules] Streaming discord_game_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_game_utils-1.zip: 37%
+2024-05-07T14:19:18.420Z [Modules] Streaming discord_game_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_game_utils-1.zip: 41%
+2024-05-07T14:19:18.421Z [Modules] Streaming discord_game_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_game_utils-1.zip: 42%
+2024-05-07T14:19:18.425Z [Modules] Streaming discord_game_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_game_utils-1.zip: 43%
+2024-05-07T14:19:18.427Z [Modules] Streaming discord_game_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_game_utils-1.zip: 44%
+2024-05-07T14:19:18.432Z [Modules] Streaming discord_game_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_game_utils-1.zip: 45%
+2024-05-07T14:19:18.434Z [Modules] Streaming discord_game_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_game_utils-1.zip: 46%
+2024-05-07T14:19:18.437Z [Modules] Streaming discord_game_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_game_utils-1.zip: 47%
+2024-05-07T14:19:18.439Z [Modules] Streaming discord_game_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_game_utils-1.zip: 48%
+2024-05-07T14:19:18.442Z [Modules] Streaming discord_game_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_game_utils-1.zip: 49%
+2024-05-07T14:19:18.446Z [Modules] Streaming discord_game_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_game_utils-1.zip: 50%
+2024-05-07T14:19:18.469Z [Modules] Streaming discord_game_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_game_utils-1.zip: 52%
+2024-05-07T14:19:18.476Z [Modules] Streaming discord_game_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_game_utils-1.zip: 53%
+2024-05-07T14:19:18.477Z [Modules] Streaming discord_game_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_game_utils-1.zip: 55%
+2024-05-07T14:19:18.483Z [Modules] Streaming discord_game_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_game_utils-1.zip: 57%
+2024-05-07T14:19:18.486Z [Modules] Streaming discord_game_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_game_utils-1.zip: 59%
+2024-05-07T14:19:18.487Z [Modules] Streaming discord_game_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_game_utils-1.zip: 60%
+2024-05-07T14:19:18.488Z [Modules] Streaming discord_game_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_game_utils-1.zip: 62%
+2024-05-07T14:19:18.488Z [Modules] Streaming discord_game_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_game_utils-1.zip: 63%
+2024-05-07T14:19:18.489Z [Modules] Streaming discord_game_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_game_utils-1.zip: 65%
+2024-05-07T14:19:18.491Z [Modules] Streaming discord_game_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_game_utils-1.zip: 66%
+2024-05-07T14:19:18.495Z [Modules] Streaming discord_game_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_game_utils-1.zip: 67%
+2024-05-07T14:19:18.497Z [Modules] Streaming discord_game_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_game_utils-1.zip: 68%
+2024-05-07T14:19:18.500Z [Modules] Streaming discord_game_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_game_utils-1.zip: 69%
+2024-05-07T14:19:18.504Z [Modules] Streaming discord_game_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_game_utils-1.zip: 70%
+2024-05-07T14:19:18.505Z [Modules] Streaming discord_game_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_game_utils-1.zip: 71%
+2024-05-07T14:19:18.508Z [Modules] Streaming discord_game_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_game_utils-1.zip: 72%
+2024-05-07T14:19:18.511Z [Modules] Streaming discord_game_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_game_utils-1.zip: 73%
+2024-05-07T14:19:18.517Z [Modules] Streaming discord_game_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_game_utils-1.zip: 75%
+2024-05-07T14:19:18.520Z [Modules] Streaming discord_game_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_game_utils-1.zip: 76%
+2024-05-07T14:19:18.522Z [Modules] Streaming discord_game_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_game_utils-1.zip: 77%
+2024-05-07T14:19:18.526Z [Modules] Streaming discord_game_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_game_utils-1.zip: 78%
+2024-05-07T14:19:18.531Z [Modules] Streaming discord_game_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_game_utils-1.zip: 80%
+2024-05-07T14:19:18.535Z [Modules] Streaming discord_game_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_game_utils-1.zip: 81%
+2024-05-07T14:19:18.536Z [Modules] Streaming discord_game_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_game_utils-1.zip: 82%
+2024-05-07T14:19:18.540Z [Modules] Streaming discord_game_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_game_utils-1.zip: 83%
+2024-05-07T14:19:18.541Z [Modules] Streaming discord_game_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_game_utils-1.zip: 84%
+2024-05-07T14:19:18.546Z [Modules] Streaming discord_game_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_game_utils-1.zip: 85%
+2024-05-07T14:19:18.548Z [Modules] Streaming discord_game_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_game_utils-1.zip: 86%
+2024-05-07T14:19:18.552Z [Modules] Streaming discord_game_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_game_utils-1.zip: 87%
+2024-05-07T14:19:18.556Z [Modules] Streaming discord_game_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_game_utils-1.zip: 88%
+2024-05-07T14:19:18.557Z [Modules] Streaming discord_game_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_game_utils-1.zip: 89%
+2024-05-07T14:19:18.561Z [Modules] Streaming discord_game_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_game_utils-1.zip: 90%
+2024-05-07T14:19:18.563Z [Modules] Streaming discord_game_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_game_utils-1.zip: 91%
+2024-05-07T14:19:18.568Z [Modules] Streaming discord_game_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_game_utils-1.zip: 92%
+2024-05-07T14:19:18.571Z [Modules] Streaming discord_game_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_game_utils-1.zip: 93%
+2024-05-07T14:19:18.574Z [Modules] Streaming discord_game_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_game_utils-1.zip: 94%
+2024-05-07T14:19:18.575Z [Modules] Streaming discord_game_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_game_utils-1.zip: 95%
+2024-05-07T14:19:18.579Z [Modules] Streaming discord_game_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_game_utils-1.zip: 96%
+2024-05-07T14:19:18.582Z [Modules] Streaming discord_game_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_game_utils-1.zip: 97%
+2024-05-07T14:19:18.584Z [Modules] Streaming discord_game_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_game_utils-1.zip: 98%
+2024-05-07T14:19:18.594Z [Modules] Streaming discord_game_utils@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_game_utils-1.zip: 100%
+2024-05-07T14:19:18.599Z [Modules] Finished module downloads. [success: 2] [failure: 0]
+2024-05-07T14:19:19.002Z [Modules] Installing discord_game_utils@1 from /home/charlie/.config/discord/0.0.53/modules/pending/discord_game_utils-1.zip
+2024-05-07T14:19:19.165Z [Modules] Finished module installations. [success: 2] [failure: 0]
+2024-05-07T14:19:19.859Z [Modules] Checking for host updates.
+2024-05-07T14:19:20.007Z [Modules] Host is up to date.
+2024-05-07T14:19:20.007Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-05-07T14:19:20.011Z [Modules] No module updates available.
+2024-05-07T14:19:20.054Z [Modules] Starting to install discord_rpc...
+2024-05-07T14:19:20.054Z [Modules] Fetching discord_rpc@1 from https://discord.com/api/modules/stable/discord_rpc/1
+2024-05-07T14:19:20.055Z [Modules] Streaming discord_rpc@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_rpc-1.zip
+2024-05-07T14:19:20.321Z [Modules] Streaming discord_rpc@1 to /home/charlie/.config/discord/0.0.53/modules/pending/discord_rpc-1.zip: 100%
+2024-05-07T14:19:20.330Z [Modules] Finished module downloads. [success: 1] [failure: 0]
+2024-05-07T14:19:20.331Z [Modules] Installing discord_rpc@1 from /home/charlie/.config/discord/0.0.53/modules/pending/discord_rpc-1.zip
+2024-05-07T14:19:20.421Z [Modules] Finished module installations. [success: 1] [failure: 0]
+2024-05-07T14:23:39.824Z [Modules] Modules initializing
+2024-05-07T14:23:39.824Z [Modules] Distribution: remote
+2024-05-07T14:23:39.825Z [Modules] Host updates: enabled
+2024-05-07T14:23:39.825Z [Modules] Module updates: enabled
+2024-05-07T14:23:39.826Z [Modules] Module install path: /home/charlie/.config/discord/0.0.53/modules
+2024-05-07T14:23:39.826Z [Modules] Module installed file path: /home/charlie/.config/discord/0.0.53/modules/installed.json
+2024-05-07T14:23:39.826Z [Modules] Module download path: /home/charlie/.config/discord/0.0.53/modules/pending
+2024-05-07T14:23:40.093Z [Modules] No updates to install
+2024-05-07T14:23:40.094Z [Modules] Checking for host updates.
+2024-05-07T14:23:40.371Z [Modules] Host is up to date.
+2024-05-07T14:23:40.371Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-05-07T14:23:40.411Z [Modules] No module updates available.
+2024-05-07T14:23:44.039Z [Modules] Checking for host updates.
+2024-05-07T14:23:44.209Z [Modules] Host is up to date.
+2024-05-07T14:23:44.209Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-05-07T14:23:44.214Z [Modules] No module updates available.
+2024-05-07T17:39:28.846Z [Modules] Modules initializing
+2024-05-07T17:39:28.847Z [Modules] Distribution: remote
+2024-05-07T17:39:28.847Z [Modules] Host updates: enabled
+2024-05-07T17:39:28.847Z [Modules] Module updates: enabled
+2024-05-07T17:39:28.848Z [Modules] Module install path: /home/charlie/.config/discord/0.0.53/modules
+2024-05-07T17:39:28.848Z [Modules] Module installed file path: /home/charlie/.config/discord/0.0.53/modules/installed.json
+2024-05-07T17:39:28.848Z [Modules] Module download path: /home/charlie/.config/discord/0.0.53/modules/pending
+2024-05-07T17:39:29.218Z [Modules] No updates to install
+2024-05-07T17:39:29.219Z [Modules] Checking for host updates.
+2024-05-07T17:39:29.510Z [Modules] Host is up to date.
+2024-05-07T17:39:29.511Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-05-07T17:39:29.545Z [Modules] No module updates available.
+2024-05-07T17:39:32.827Z [Modules] Checking for host updates.
+2024-05-07T17:39:32.989Z [Modules] Host is up to date.
+2024-05-07T17:39:32.989Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-05-07T17:39:32.993Z [Modules] No module updates available.
+2024-05-07T18:39:33.040Z [Modules] Checking for host updates.
+2024-05-07T18:39:33.220Z [Modules] Host is up to date.
+2024-05-07T18:39:33.220Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-05-07T18:39:33.273Z [Modules] No module updates available.
