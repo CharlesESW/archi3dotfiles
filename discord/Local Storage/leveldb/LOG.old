@@ -1,0 +1,20 @@
+2024/10/10-17:34:47.999 9a77 Reusing MANIFEST /home/charlie/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2024/10/10-17:34:48.012 9a77 Recovering log #335
+2024/10/10-17:34:48.012 9a77 Reusing old log /home/charlie/.config/discord/Local Storage/leveldb/000335.log 
+2024/10/10-17:37:38.796 9a77 Level-0 table #339: started
+2024/10/10-17:37:38.831 9a77 Level-0 table #339: 854501 bytes OK
+2024/10/10-17:37:38.846 9a77 Delete type=0 #335
+2024/10/10-17:37:38.847 9a77 Compacting 4@0 + 2@1 files
+2024/10/10-17:37:38.897 9a77 Generated table #340@0: 14 keys, 2422593 bytes
+2024/10/10-17:37:38.963 9a77 Generated table #341@0: 102 keys, 3182235 bytes
+2024/10/10-17:37:38.964 9a77 Compacted 4@0 + 2@1 files => 5604828 bytes
+2024/10/10-17:37:38.975 9a77 compacted to: files[ 0 3 0 0 0 0 0 ]
+2024/10/10-17:37:38.975 9a77 Delete type=2 #327
+2024/10/10-17:37:38.975 9a77 Delete type=2 #339
+2024/10/10-17:37:38.975 9a77 Delete type=2 #326
+2024/10/10-17:37:38.976 9a77 Delete type=2 #329
+2024/10/10-17:37:38.976 9a77 Delete type=2 #336
+2024/10/10-17:37:38.976 9a77 Delete type=2 #332
+2024/10/10-17:41:02.731 9a77 Level-0 table #343: started
+2024/10/10-17:41:02.752 9a77 Level-0 table #343: 61073 bytes OK
+2024/10/10-17:41:02.766 9a77 Delete type=0 #338

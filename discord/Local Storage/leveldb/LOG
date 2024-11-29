@@ -1,0 +1,5 @@
+2024/11/29-18:24:48.668 2164 Reusing MANIFEST /home/charlie/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2024/11/29-18:24:48.681 2164 Recovering log #342
+2024/11/29-18:24:48.683 2164 Reusing old log /home/charlie/.config/discord/Local Storage/leveldb/000342.log 
+2024/11/29-18:28:36.813 2163 Level-0 table #346: started
+2024/11/29-18:28:36.894 2163 Level-0 table #346: 3341854 bytes OK
